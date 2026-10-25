@@ -1,0 +1,22 @@
+# Go
+*.exe
+*.test
+*.out
+coverage.*
+/vendor/
+go.work
+go.work.sum
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+
+# Generated from scripts/*.lua by nestjs/tools/embed-lua.mjs
+nestjs/src/lua.generated.ts
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
